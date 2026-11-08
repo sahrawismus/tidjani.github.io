@@ -25,4 +25,6 @@ In my personal life, I enjoy music, reading, movies, travelling, and nature.
 ## Contact
 
 - Email: [tidjani@posteo.eu](mailto:tidjani@posteo.eu)
+- Signal: [@tidjani.75](https://signal.me/#eu/t34OQFdHKOoJp5MHsb9CEMOub1YkFH-Z0V4qKqzFjHIMzfMOW4lBPKe8sinyS8xb)
+- Linkedin: [click here](https://www.linkedin.com/in/tidjanisaleh/)
 - Wikipedia: [English user page](https://en.wikipedia.org/wiki/User:Tidjani_Saleh)
