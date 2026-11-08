@@ -1,4 +1,85 @@
-baseURL = 'https://tidjani.eu/'
-locale = 'en-gb'
-title = 'Tidjani Saleh'
-theme = 'PaperMod'
+# ============ CORE ============
+baseURL = "https://tidjani.eu/"
+title = "Tidjani Saleh"
+theme = "PaperMod"
+locale = "en"
+enableRobotsTXT = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true            # allows raw HTML inside Markdown
+  [markup.highlight]
+    noClasses = false
+
+# ============ MENU ============
+[[menus.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 10
+[[menus.main]]
+  name = "Articles"
+  pageRef = "/articles"
+  weight = 20
+[[menus.main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 30
+
+# ============ THEME PARAMS ============
+[params]
+  env = "production"
+  author = "Tidjani Saleh"
+  description = "Personal website of Tidjani Saleh"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  DateFormat = "2 January 2006"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowShareButtons = false
+  hideFooter = false
+
+  # --- Home page (profile mode) ---
+  [params.profileMode]
+    enabled = true
+    title = "Tidjani Saleh"
+    subtitle = "Website under construction"
+    # imageUrl = "/img/me.jpg"      # file goes in static/img/
+    # imageWidth = 140
+    # imageHeight = 140
+    [[params.profileMode.buttons]]
+      name = "Articles"
+      url = "/articles/"
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/blog/"
+
+# ============ SOCIAL ICONS ============
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:tidjani@posteo.eu"
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/tidjanisaleh/"
+[[params.socialIcons]]
+  name = "bluesky"
+  url = "https://bsky.app/profile/tidjani.eu"
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/sahrawismus"
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
