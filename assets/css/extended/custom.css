@@ -1,2 +1,7 @@
-
-html[dir="rtl"] em { font-style: normal; }
+/* Justified text for posts, pages and post previews */
+.post-content,
+.post-description,
+.entry-content {
+  text-align: justify;
+  hyphens: auto;
+}
