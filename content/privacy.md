@@ -64,7 +64,7 @@ To exercise these rights, email me at the address above.
 
 You have the right to lodge a complaint with a data protection supervisory authority. The authority responsible for me is:
 
-Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI BW)<br>Website: [baden-wuerttemberg.datenschutz.de](https://www.baden-wuerttemberg.datenschutz.de).
+Landesbeauftragte für den Datenschutz und die Informationsfreiheit Baden-Württemberg (LfDI BW)<br>Website: [https://www.baden-wuerttemberg.datenschutz.de/kontakt-aufnehmen/](https://www.baden-wuerttemberg.datenschutz.de/kontakt-aufnehmen/)
 
 You may also complain to the authority in your own place of residence.
 
