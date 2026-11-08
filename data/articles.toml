@@ -1,0 +1,80 @@
+[[articles]]
+author    = ""
+title     = "Morocco: Free Koulchi, Palace Excluded"
+url       = "https://africaelects.com/2026/09/22/morocco-free-koulchi-palace-excluded/"
+work      = "Africa Elects"
+date      = 2026-09-22             # YYYY-MM-DD, no quotes
+language  = "en"                   # optional
+type      = "article"
+note      = ""                     # optional short remark
+
+[[articles]]
+author    = ""
+title     = "Morocco: God, Fatherland, King… And Elections?"
+url       = "https://africaelects.com/2026/09/22/morocco-god-fatherland-king-and-elections/"
+work      = "Africa Elects"
+date      = 2026-09-22             # YYYY-MM-DD, no quotes
+language  = "en"                   # optional
+type      = "article"
+note      = ""                     # optional short remark
+
+[[articles]]
+author    = ""
+title     = "Algeria: the regime’s election, the people’s abstention"
+url       = "https://africaelects.com/2026/07/01/algeria-the-regimes-election-the-peoples-abstention/"
+work      = "Africa Elects"
+date      = 2026-07-01
+language  = "en"                   # optional
+type      = "article"
+note      = ""                     # optional short remark
+
+[[articles]]
+author    = "Yona Roseman"
+title     = "הפסיקה שמטלטלת את הכיבוש המרוקאי: המאבק על העצמאות בסהרה המערבית מגיע לנקודת מפנה"
+trans_title = "The ruling that shakes the Moroccan occupation: the struggle for independence in the Western Sahara is reaching a turning point"
+url       = "https://www.haaretz.co.il/blogs/yonaroseman/2024-11-10/ty-article/00000192-d2a8-df2b-a5db-d6bc87260000/"
+work      = "Haaretz"
+date      = 2024-11-10
+language  = "he"                   # optional
+type      = "interview"
+note      = ""                     # optional short remark
+
+[[articles]]
+author    = ""
+title     = "Spain: Galicia Chooses Between Stability and a New Tide in a Regional Election"
+url       = "https://europeelects.eu/2024/02/18/spain-galicia-chooses-between-stability-and-a-new-tide-in-a-regional-election/"
+work      = "Europe Elects"
+date      = 2024-02-18
+language  = "en"                   # optional
+type      = "article"
+note      = ""                     # optional short remark
+
+[[articles]]
+author    = ""
+title     = "Mauritania: The first challenge of the Ghazouani era"
+url       = "https://africaelects.com/2023/05/06/mauritania-the-first-challenge-of-the-ghazouani-era/"
+work      = "Africa Elects"
+date      = 2023-05-06
+language  = "en"                   # optional
+type      = "article"
+note      = ""                     # optional short remark
+
+[[articles]]
+author    = ""
+title     = "Sahrawi Republic: A 50-year-old conflict for independence"
+url       = "https://africaelects.com/2023/01/12/sahrawi-republic-a-50-year-old-conflict-for-independence/"
+work      = "Africa Elects"
+date      = 2023-01-12
+language  = "en"                   # optional
+type      = "article"
+note      = ""                     # optional short remark
+
+[[articles]]
+author    = ""
+title     = "Mauritania: New Election, New System"
+url       = "https://africaelects.com/2022/10/11/mauritania-new-election-new-system/"
+work      = "Africa Elects"
+date      = 2022-10-11
+language  = "en"                   # optional
+type      = "article"
+note      = ""                     # optional short remark

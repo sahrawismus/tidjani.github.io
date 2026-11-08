@@ -2,7 +2,7 @@
 baseURL = "https://tidjani.eu/"
 title = "Tidjani Saleh"
 theme = "PaperMod"
-locale = "en"
+locale = "en-gb"
 enableRobotsTXT = true
 enableEmoji = true
 buildDrafts = false

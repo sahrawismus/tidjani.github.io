@@ -1,0 +1,13 @@
+{{- $items := sort site.Data.articles.articles "date" "desc" -}}
+<ul>
+{{- range $items }}
+  <li>
+    {{ with .author }}{{ . }}. {{ end -}}
+    <a href="{{ .url }}">“{{ .title }}”</a>{{ with .trans_title }} [{{ . }}]{{ end }}.
+    <em>{{ .work }}</em>{{ with .publisher }}, {{ . }}{{ end }}.
+    {{ .date | time.Format ":date_long" }}.
+    {{ with .type }}({{ . }}){{ end }}
+    {{ with .note }}<br><small>{{ . }}</small>{{ end }}
+  </li>
+{{- end }}
+</ul>
