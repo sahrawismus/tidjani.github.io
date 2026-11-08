@@ -1,6 +1,7 @@
 # ============ CORE ============
 baseURL = "https://tidjani.eu/"
 title = "Tidjani Saleh"
+copyright = "© 2026 [Tidjani Saleh](https://tidjani.eu/) · [Privacy](/privacy/)"
 theme = "PaperMod"
 enableRobotsTXT = true
 enableEmoji = true
@@ -98,6 +99,7 @@ defaultContentLanguageInSubdir = false   # en stays at /, others at /ar/ and /me
   direction = "rtl"
   weight = 3
   title = "التجاني ولد الصالح"
+  copyright = "© 2026 [التجاني ولد الصالح](https://tidjani.eu/mey/) · [الخصوصية](/privacy/)"
   [languages.mey.params]
     description = "TODO"
     DateFormat = "2006-01-02"
