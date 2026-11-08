@@ -56,7 +56,7 @@ buildFuture = false
   [params.profileMode]
     enabled = true
     title = "Tidjani Saleh"
-    subtitle = "Website under construction"
+    subtitle = "Welcome!"
     # imageUrl = "/img/me.jpg"      # file goes in static/img/
     # imageWidth = 140
     # imageHeight = 140
