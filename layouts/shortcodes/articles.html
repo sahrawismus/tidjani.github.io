@@ -1,12 +1,20 @@
 {{- $items := sort site.Data.articles.articles "date" "desc" -}}
+{{- $cur := site.Language.Lang -}}
 <ul>
 {{- range $items }}
+  {{- $parts := slice }}
+  {{- with .type }}{{ $parts = $parts | append (i18n (printf "type_%s" .)) }}{{ end }}
+  {{- if and .language (ne .language $cur) }}
+    {{- $name := i18n (printf "lang_%s" .language) }}
+    {{- if not $name }}{{ $name = .language }}{{ end }}
+    {{- $parts = $parts | append (i18n "in_lang" $name) }}
+  {{- end }}
   <li>
     {{ with .author }}{{ . }}. {{ end -}}
     <a href="{{ .url }}">“{{ .title }}”</a>{{ with .trans_title }} [{{ . }}]{{ end }}.
     <em>{{ .work }}</em>{{ with .publisher }}, {{ . }}{{ end }}.
     {{ .date | time.Format ":date_long" }}.
-    {{ with .type }}({{ . }}){{ end }}
+    {{ with $parts }}({{ delimit . ", " }}){{ end }}
     {{ with .note }}<br><small>{{ . }}</small>{{ end }}
   </li>
 {{- end }}

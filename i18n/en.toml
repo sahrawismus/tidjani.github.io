@@ -1,0 +1,24 @@
+[type_article]
+other = "article"
+[type_interview]
+other = "interview"
+[type_report]
+other = "report"
+[in_lang]
+other = "in {{ . }}"
+[lang_en]
+other = "English"
+[lang_he]
+other = "Hebrew"
+[lang_ar]
+other = "Arabic"
+[lang_mey]
+other = "Hassaniya"
+[lang_es]
+other = "Spanish"
+[lang_fr]
+other = "French"
+[lang_ca]
+other = "Catalan"
+[lang_de]
+other = "German"
