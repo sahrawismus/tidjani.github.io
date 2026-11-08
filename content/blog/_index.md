@@ -4,4 +4,4 @@ draft = false
 title = 'Blog'
 +++
 
-My blog reflects exclusively my personal opinion on different matters.
+My blog exclusively reflects my personal opinion on different matters.
