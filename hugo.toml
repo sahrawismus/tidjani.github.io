@@ -2,11 +2,14 @@
 baseURL = "https://tidjani.eu/"
 title = "Tidjani Saleh"
 theme = "PaperMod"
-locale = "en-gb"
 enableRobotsTXT = true
 enableEmoji = true
 buildDrafts = false
 buildFuture = false
+
+# ============ LANGUAGES ============
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false   # en stays at /, others at /ar/ and /mey/
 
 [pagination]
   pagerSize = 10
@@ -17,32 +20,16 @@ buildFuture = false
 
 [markup]
   [markup.goldmark.renderer]
-    unsafe = true            # allows raw HTML inside Markdown
+    unsafe = true
   [markup.highlight]
     noClasses = false
 
-# ============ MENU ============
-[[menus.main]]
-  name = "About"
-  pageRef = "/about"
-  weight = 10
-[[menus.main]]
-  name = "Articles"
-  pageRef = "/articles"
-  weight = 20
-[[menus.main]]
-  name = "Blog"
-  pageRef = "/blog"
-  weight = 30
-
-# ============ THEME PARAMS ============
+# ============ THEME PARAMS (shared) ============
 [params]
   env = "production"
   author = "Tidjani Saleh"
-  description = "Personal website of Tidjani Saleh"
   defaultTheme = "auto"
   disableThemeToggle = false
-  DateFormat = "2 January 2006"
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
@@ -51,23 +38,9 @@ buildFuture = false
   TocOpen = false
   ShowShareButtons = false
   hideFooter = false
+  displayFullLangName = true
 
-  # --- Home page (profile mode) ---
-  [params.profileMode]
-    enabled = true
-    title = "Tidjani Saleh"
-    subtitle = "Welcome!"
-    # imageUrl = "/img/me.jpg"      # file goes in static/img/
-    # imageWidth = 140
-    # imageHeight = 140
-    [[params.profileMode.buttons]]
-      name = "Articles"
-      url = "/articles/"
-    [[params.profileMode.buttons]]
-      name = "Blog"
-      url = "/blog/"
-
-# ============ SOCIAL ICONS ============
+# ============ SOCIAL ICONS (shared) ============
 [[params.socialIcons]]
   name = "email"
   url = "mailto:tidjani@posteo.eu"
@@ -83,3 +56,70 @@ buildFuture = false
 [[params.socialIcons]]
   name = "rss"
   url = "/index.xml"
+
+# ============ ENGLISH ============
+[languages.en]
+  label = "English"
+  locale = "en-GB"
+  direction = "ltr"
+  weight = 1
+  title = "Tidjani Saleh"
+  [languages.en.params]
+    description = "Personal website of Tidjani Saleh"
+    DateFormat = "2 January 2006"
+    [languages.en.params.profileMode]
+      enabled = true
+      title = "Tidjani Saleh"
+      subtitle = "Welcome!"
+      [[languages.en.params.profileMode.buttons]]
+        name = "Articles"
+        url = "/articles/"
+      [[languages.en.params.profileMode.buttons]]
+        name = "Blog"
+        url = "/blog/"
+  [[languages.en.menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+  [[languages.en.menus.main]]
+    name = "Articles"
+    pageRef = "/articles"
+    weight = 20
+  [[languages.en.menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 30
+
+
+# ============ HASSANIYA ============
+[languages.mey]
+  label = "الحسانية"
+  locale = "mey"
+  direction = "rtl"
+  weight = 3
+  title = "التجاني ولد الصالح"
+  [languages.mey.params]
+    description = "TODO"
+    DateFormat = "2006-01-02"
+    [languages.mey.params.profileMode]
+      enabled = true
+      title = "التجاني ولد الصالح"
+      subtitle = "مرحبا بيكم!"
+      [[languages.mey.params.profileMode.buttons]]
+        name = "مقالات"                  # Articles
+        url = "/mey/articles/"
+      [[languages.mey.params.profileMode.buttons]]
+        name = "مدونتي"                  # Blog
+        url = "/mey/blog/"
+  [[languages.mey.menus.main]]
+    name = "أنا منهو؟"                 # About
+    pageRef = "/about"
+    weight = 10
+  [[languages.mey.menus.main]]
+    name = "مقالات"                      # Articles
+    pageRef = "/articles"
+    weight = 20
+  [[languages.mey.menus.main]]
+    name = "مدونتي"                      # Blog
+    pageRef = "/blog"
+    weight = 30

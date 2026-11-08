@@ -22,3 +22,6 @@ other = "French"
 other = "Catalan"
 [lang_de]
 other = "German"
+
+[list_sep]
+other = ", "

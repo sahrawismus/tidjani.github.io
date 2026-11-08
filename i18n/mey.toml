@@ -1,0 +1,55 @@
+[type_article]
+other = "مقالة"
+[type_interview]
+other = "مقابلة"
+[type_report]
+other = "تقرير"
+[in_lang]
+other = "ب{{ . }}"
+[lang_en]
+other = "الإنگليزية"
+[lang_he]
+other = "العبرية"
+[lang_ar]
+other = "العربية الفصحى"
+[lang_mey]
+other = "الحسانية"
+[lang_es]
+other = "الاسبانولية"
+[lang_fr]
+other = "الفرنسية"
+[lang_ca]
+other = "الكاتالونية"
+[lang_de]
+other = "الألمانية"
+
+[list_sep]
+other = " "
+
+[month_1]
+other = "ينايز"
+[month_2]
+other = "فبراير"
+[month_3]
+other = "مارس"
+[month_4]
+other = "إبريل"
+[month_5]
+other = "مايو"
+[month_6]
+other = "يونيو"
+[month_7]
+other = "يوليو"
+[month_8]
+other = "أغشت"
+[month_9]
+other = "شتمبر"
+[month_10]
+other = "أكتوبر"
+[month_11]
+other = "نوفمبر"
+[month_12]
+other = "ديسمبر"
+
+[toc]
+other = "المحتويات"
