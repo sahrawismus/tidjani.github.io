@@ -49,6 +49,9 @@ defaultContentLanguageInSubdir = false   # en stays at /, others at /ar/ and /me
   name = "linkedin"
   url = "https://www.linkedin.com/in/tidjanisaleh/"
 [[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/sahrawismus"
+[[params.socialIcons]]
   name = "bluesky"
   url = "https://bsky.app/profile/tidjani.eu"
 [[params.socialIcons]]
